@@ -42,14 +42,11 @@ const Book = () => {
         .then(data => {
           console.log(data);
         })
-
-
     }
-
     return (
         <div style={{textAlign: 'center'}}>
             <h1>Hey! {loggedInUser.name} Let's book a {bedType} Room.</h1>
-            <p>Want a <Link to="/home">different room?</Link> </p>
+            <p>Want a <Link to="/home">different room? or semiller</Link> </p>
 
             <MuiPickersUtilsProvider utils={DateFnsUtils}>
       <Grid container justify="space-around">
